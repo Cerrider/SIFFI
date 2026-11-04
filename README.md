@@ -65,7 +65,7 @@ Required inputs (all arrays have length `n`, covariances are `n × n`):
 | `error_cov` | Noise covariance, e.g. `numpy.diag(sigma**2)` |
 | `surf_prior_mean`, `surf_prior_cov` | Prior model for surface reflectance |
 | `sif_prior_mean`, `sif_prior_cov` | Prior model for SIF |
-| `forward_model`, `jacobian` | Forward model and its derivatives, see [Forward model](#Forward model)) |
+| `forward_model`, `jacobian` | Forward model and its derivatives, see [Forward Model](#forward-model)) |
 
 Optional settings:
 
