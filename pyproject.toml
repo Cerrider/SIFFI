@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "SIFFI"
+dynamic = ["version"]
+description = "SIFFI retrieval algorithm to retrieve solar-induced fluorescence and surface reflectance."
+authors = [
+    { name = "Antti Kukkurainen", email = "antti.kukkurainen@fmi.fi" },
+]
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "numpy",
+    "scipy",
+]
+
+[tool.hatch.version]
+path = "siffi/__init__.py"
