@@ -16,14 +16,14 @@ model or instrument. The method is described in
 
 ## Installation
 
-The code can be imported without installing by adding the directory to the `PYTHONPATH` but it's recommended to install it to your (virtual) environment.\\
+The code can be imported without installing by adding the directory to the `PYTHONPATH` but it's recommended to install it to your (virtual) environment.
 
 Install directly from GitHub:
 
 ```bash
 pip install git+https://github.com/Cerrider/SIFFI.git
 ```
-Or clone the repository
+Or clone the repository:
 
 ```bash
 git clone https://github.com/Cerrider/SIFFI.git
@@ -65,7 +65,7 @@ Required inputs (all arrays have length `n`, covariances are `n × n`):
 | `error_cov` | Noise covariance, e.g. `numpy.diag(sigma**2)` |
 | `surf_prior_mean`, `surf_prior_cov` | Prior model for surface reflectance |
 | `sif_prior_mean`, `sif_prior_cov` | Prior model for SIF |
-| `forward_model`, `jacobian` | Forward model and its derivatives (see above) |
+| `forward_model`, `jacobian` | Forward model and its derivatives, see [Forward model](#Forward model)) |
 
 Optional settings:
 
